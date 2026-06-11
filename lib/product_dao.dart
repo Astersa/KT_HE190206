@@ -35,16 +35,6 @@ class ProductDAO {
       rating: 4.8,
       reviewCount: 212,
     ),
-    Product(
-      id: 4,
-      description: 'Đi âu hóa cùng Xuân Tóc Đỏ',
-      detail: 'Nhân vật siêu đỏ. Chưa tài đâu.',
-      price: 600000,
-      discontPercen: 15,
-      image: 'assets/images/XTD.jpg',
-      rating: 5.0,
-      reviewCount: 300,
-    ),
   ];
 
   List<Product> getAllProduct() {
