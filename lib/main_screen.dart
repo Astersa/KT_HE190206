@@ -53,9 +53,7 @@ class _MainScreenState extends State<MainScreen> {
                     style: TextStyle(fontSize: 16, color: Colors.grey),
                   ),
                 ),
-          const Center(
-            child: Text('Cart', style: TextStyle(fontSize: 22)),
-          ),
+          const Center(child: Text('Cart', style: TextStyle(fontSize: 22))),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -69,8 +67,8 @@ class _MainScreenState extends State<MainScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.info_outline),
-            activeIcon: Icon(Icons.info),
+            icon: Icon(Icons.list_outlined),
+            activeIcon: Icon(Icons.list),
             label: 'ProductDetail',
           ),
           BottomNavigationBarItem(
